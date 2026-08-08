@@ -1,0 +1,13 @@
+include:
+  - ./pacto-solucoes-recrutamento-api/docker-compose.yml
+
+services:
+  web:
+    build: ./pacto-solucoes-recrutamento-web
+    container_name: recrutamento-web
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+    networks:
+      - recrutamento-network
