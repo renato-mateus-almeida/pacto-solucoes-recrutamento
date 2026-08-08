@@ -15,7 +15,9 @@ Browser (:80) -> nginx (web) -> /api -> api (:8080) -> PostgreSQL (:5432)
 - [Docker Compose](https://docs.docker.com/compose/install/) (v2.20+)
 - [Git](https://git-scm.com/)
 
-## Clonagem
+## Como rodar
+
+### 1. Clone os repositorios
 
 ```bash
 git clone https://github.com/renato-mateus-almeida/pacto-solucoes-recrutamento.git
@@ -24,7 +26,7 @@ git clone https://github.com/renato-mateus-almeida/pacto-solucoes-recrutamento-a
 git clone https://github.com/renato-mateus-almeida/pacto-solucoes-recrutamento-web.git
 ```
 
-## Execucao com Docker
+### 2. Suba os containers
 
 ```bash
 docker compose up -d
@@ -32,7 +34,9 @@ docker compose up -d
 
 Tres containers sobem automaticamente: `recrutamento-db`, `recrutamento-api` e `recrutamento-web`.
 
-**Acesse:** [http://localhost](http://localhost)
+### 3. Acesse
+
+[http://localhost](http://localhost)
 
 ### Credenciais
 
