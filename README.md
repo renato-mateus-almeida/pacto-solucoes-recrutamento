@@ -6,7 +6,7 @@ Stack: **Spring Boot 4.1 (Java 21)** + **Angular 21** + **PostgreSQL 16**.
 ## Arquitetura
 
 ```
-Browser (:80) -> nginx (web) -> /api -> api (:8080) -> PostgreSQL (:5432)
+Browser (:8081) -> nginx (web) -> /api -> api (:8080) -> PostgreSQL (:5432)
 ```
 
 ## Pre-requisitos
@@ -36,7 +36,7 @@ Tres containers sobem automaticamente: `recrutamento-db`, `recrutamento-api` e `
 
 ### 3. Acesse
 
-[http://localhost](http://localhost)
+[http://localhost:8081](http://localhost:8081)
 
 ### Credenciais
 
