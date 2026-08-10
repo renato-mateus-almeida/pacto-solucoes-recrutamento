@@ -28,7 +28,13 @@ O projeto e composto por tres repositorios:
 ```bash
 git clone https://github.com/renato-mateus-almeida/pacto-solucoes-recrutamento.git
 cd pacto-solucoes-recrutamento
+```
+
+```bash
 git clone https://github.com/renato-mateus-almeida/pacto-solucoes-recrutamento-api.git
+```
+
+```bash
 git clone https://github.com/renato-mateus-almeida/pacto-solucoes-recrutamento-web.git
 ```
 
