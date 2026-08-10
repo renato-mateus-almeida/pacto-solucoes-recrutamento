@@ -19,6 +19,12 @@ Browser (:8081) -> nginx (web) -> /api -> api (:8080) -> PostgreSQL (:5432)
 
 ### 1. Clone os repositorios
 
+O projeto e composto por tres repositorios:
+
+- **pacto-solucoes-recrutamento** — Repositorio principal (docker-compose, documentacao)
+- **pacto-solucoes-recrutamento-api** — Backend em Spring Boot
+- **pacto-solucoes-recrutamento-web** — Frontend em Angular
+
 ```bash
 git clone https://github.com/renato-mateus-almeida/pacto-solucoes-recrutamento.git
 cd pacto-solucoes-recrutamento
